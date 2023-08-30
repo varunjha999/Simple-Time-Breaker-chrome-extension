@@ -1,0 +1,31 @@
+{
+     "manifest_version": 3,
+     "name": "Break Timer",
+     "description": "Break Timer for working hours | Set your time and just chill for the next break time, It's my responsibility to let you know about your break time's end\nThank You for purchasing our extension, I hope it helps you. ",
+     "author": "Varun Jha",
+     "version": "1.0.0",
+     "icons": {
+          "16": "logo.png",
+          "32": "logo.png",
+          "48": "logo.png",
+          "128": "logo.png"
+     },
+     "permissions": [
+          "activeTab",
+          "scripting"
+     ],
+     "action": {
+          "default_title": "Break Timer by Varun",
+          "default_popup": "index.html"   
+     },
+     "web_accessible_resources": [
+          {
+               "resources": [
+                    "*/*"
+               ],
+               "matches": [
+                    "*://*/*"
+               ]
+          }
+     ]
+}
